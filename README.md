@@ -212,4 +212,4 @@ Summary accuracy uses percentages; per-run accuracy and F1 fields use fractions.
 ## References
 
 **Yao, L., Mao, C., & Luo, Y. (2019).** *Graph Convolutional Networks for Text Classification.* AAAI, 33, 7370–7377. [Authors' source and data](https://github.com/yao8839836/text_gcn).
-GCN layers build on **Kipf & Welling (ICLR 2017)**, *Semi-Supervised Classification with Graph Convolutional Networks*. The diagram is newly drawn for this implementation.
+GCN layers build on **Kipf & Welling (ICLR 2017)**, *Semi-Supervised Classification with Graph Convolutional Networks*.
