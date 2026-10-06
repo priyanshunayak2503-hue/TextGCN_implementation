@@ -1,8 +1,8 @@
-# TextGCN_implementation
+# TextGCN Implementation
 
 A PyTorch implementation of **Graph Convolutional Networks for Text Classification** by Liang Yao, Chengsheng Mao and Yuan Luo (AAAI 2019).
 
-**5 datasets · 2 models · 65 completed runs · Single Python implementation**
+**5 datasets · 2 models ·**
 
 [Overview](#paper-overview) · [Architecture](#model-architecture) · [Results](#results) · [Run](#run-the-code)
 
