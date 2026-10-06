@@ -207,7 +207,7 @@ Summary accuracy uses percentages; per-run accuracy and F1 fields use fractions.
 
 ## Architecture explanation for a presentation
 
-> “We represent documents and words as nodes in one graph per dataset. TF-IDF connects documents to words, and positive PMI connects related words. The first GCN layer learns 200 values per node; the second produces category scores. Softmax turns them into probabilities. Only training labels update the model; validation controls stopping and test labels measure final performance.”
+> “The model represents documents and words as nodes in one graph per dataset. TF-IDF connects documents to words, and positive PMI connects related words. The first GCN layer learns 200 values per node; the second produces category scores. Softmax turns them into probabilities. Only training labels update the model; validation controls stopping and test labels measure final performance.”
 
 ## References
 
