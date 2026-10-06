@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "datasets": ["R8", "R52", "ohsumed", "mr", "20ng"],
+  "models": ["tfidf_lr", "textgcn"],
+  "seeds": [42, 43, 44],
+  "validation_seed": 1234,
+  "validation_fraction": 0.1,
+  "graph": {"window_size": 20, "pmi_mode": "released_code"},
+  "textgcn": {"hidden": 200, "dropout": 0.5, "learning_rate": 0.02, "epochs": 200, "early_stopping": 10},
+  "tfidf_lr": {"C": 1.0, "max_iter": 3000},
+  "device": "cpu"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Text GCN implementation: measured experiment",
+  "datasets": [
+    "R8",
+    "R52",
+    "ohsumed",
+    "mr",
+    "20ng"
+  ],
+  "textgcn_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "tfidf_lr_seeds": [
+    42,
+    43,
+    44
+  ],
+  "total_completed_runs": 65,
+  "validation_seed": 1234,
+  "validation_fraction": 0.1,
+  "validation_split": "Fixed per dataset; deterministic rare-class swap on R52 only",
+  "accuracy_units": "Percent in summary; fraction in per_run.csv",
+  "spread": "Sample standard deviation (ddof=1), not a confidence interval",
+  "dataset_source_commit": "962223652e9bb164ac2d83cd09fc7b8845ce860b",
+  "inference_check": "Metrics rechecked from saved predictions; checkpoint inference not rerun in audit",
+  "omitted": "Dataset text, document predictions, checkpoints and environment-specific manifests"
+}

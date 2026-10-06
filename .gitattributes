@@ -1,0 +1,8 @@
+# Preserve exact source bytes: saved experiment manifests hash these files.
+*.py -text
+*.json -text
+*.ipynb -text
+*.md text eol=lf
+*.csv text eol=lf
+*.png binary
+*.svg text eol=lf
