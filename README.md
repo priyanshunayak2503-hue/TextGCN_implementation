@@ -17,7 +17,7 @@ Connecting both documents to that word lets the model use their relationship whe
 This is an illustration; actual connections depend on statistics across the dataset.
 
 The paper's contribution is the shared document–word graph approach to classification.
-GCN layers, TF-IDF and PMI are existing methods combined in this approach, not newly invented by the authors.
+GCN layers, TF-IDF and PMI are existing methods combined in this approach.
 
 ## Model architecture
 
