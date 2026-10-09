@@ -122,9 +122,6 @@ Logistic Regression uses `C=1`, solver `lbfgs` and at most 3,000 iterations. Nei
 | MR | Movie-review sentiment | 10,662 | 7,108 | 3,554 | 2 |
 | 20NG | Newsgroup topics | 18,846 | 11,314 | 7,532 | 20 |
 
-The downloader uses the authors' [cleaned texts and original splits](https://github.com/yao8839836/text_gcn/tree/962223652e9bb164ac2d83cd09fc7b8845ce860b), with no additional cleaning.
-Their cleaning removes stop words and words occurring fewer than five times, except on MR. Validation is held out from original training data.
-
 ## Results
 
 A **seed** controls random training choices. Text GCN uses seeds **42–51** (50 runs); the baseline uses **42–44** (15 fits).
